@@ -33,3 +33,12 @@ is for the user to sign up to my weekly Broncos Country Newsletter.
 * [Testing](#Testing)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
+
+<a name="ux"></a>
+## **UX**
+<a></a>
+ ### **Site Owners Goals**
+    * To promote the Denver Broncos
+    * To provide information about the Denver Broncos
+    * To provide a good user experience 
+    * To get users to sign up to the weekly email 
