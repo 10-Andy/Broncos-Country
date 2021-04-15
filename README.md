@@ -42,3 +42,24 @@ is for the user to sign up to my weekly Broncos Country Newsletter.
     * To provide information about the Denver Broncos
     * To provide a good user experience 
     * To get users to sign up to the weekly email 
+
+### **External Users Goals**
+    * A website that is visually eye catching 
+    * Be able to view website across all devices
+    * Website filled with interesting content
+    * Form to sign up to the weekly emails
+    * To be able to use the links to view the social media sites 
+    * To be able to view pictures of team players, superbowl wins and the 2021 season opponents
+
+### **User Stories**
+    * As a user,I want to know who the site is about
+    * As a user,I want to find information and facts about the team 
+    * As a user,I want to find out how many and what Superbowls they've won
+    * As a user,I want to see who the upcoming seasons opponents
+    * As a user,I want to read about the players 
+    * As a user,I want the website to be easy to navigate 
+    * As a user,I want the website to work on all devices
+    * As a user, i want the website to be informative as this will increase the chances of signing up for
+    the weekly newsletter 
+    * As a user,I need the website to be easy and simple to use 
+    * As a user,I expect social meadia links to open on a seperate tab
