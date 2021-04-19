@@ -189,3 +189,12 @@ After writing the code, committing and pushing it to GitHub:
 1. Under source select **master branch** on the dropdown menu, and click save.
 1. Now the website is live on [x]
 1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
+
+To run the project locally:
+
+1. Log in to **GitHub** and locate the **Repository**
+1. Under the Github Repository **green Clone or Download button** 
+1. Using the **Clone with HTTPS option**, copy the link displayed.
+1. Open your IDE, and ensure the Git Terminal is open.
+1. Change the working directory to the location where the cloned directory is to be made.
+1. Use the **"git clone" command** and paste the URL copied in the second step.
