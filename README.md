@@ -128,3 +128,7 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 *   #### **Navigation**
 
      I've used __Bootstraps Javascript__ to implement a responsive navbar, on mobile device it will have an american football icon. It will have the navbar fixed to the top of the page and include 5 links to allow easy navigation.
+
+*    #### **Welcome Section**
+
+     This displays the teams logo surrounded by 4 short paragraphs, these will have 4 facts about the teams history. Two paragraphs will be hidden on mobile for design purposes.
