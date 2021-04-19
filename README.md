@@ -114,3 +114,13 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 * #### **Colors**
     Ive based my color scheme on the teams main     colors.
     I've researched and found on __Code of colors__ the RGBA color codes so I can implement them in my project.
+
+<a></a>
+## **Features**
+
+<a></a>
+### **Existing Features**
+
+*   #### **Hero Image**
+
+     I have used a full width hero image at the top of the page, this will be an aerial view of the team stadium. This will also have the name of the website over the image.
