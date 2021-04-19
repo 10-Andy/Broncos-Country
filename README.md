@@ -176,3 +176,16 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 
 <a></a>
 ## **Testing**
+
+<a></a>
+## **Deployment**
+
+This project was deployed via GitHub by executing the following steps.
+After writing the code, committing and pushing it to GitHub:
+
+1. Log in to **GitHub** and locate the **Repository**
+1. At the top of the repository on github and click **Settings**.
+1. Scroll down the settings page until you find **GitHub Pages** section. Go to the **Source section** within the Github Pages section.
+1. Under source select **master branch** on the dropdown menu, and click save.
+1. Now the website is live on [x]
+1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
