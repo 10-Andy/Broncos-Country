@@ -141,3 +141,7 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 
 *    #### **Season Opponents**
      I've used __Bootstraps__ grid to display both home and away opponents seperated by a verticle line, images will be used for each team. On mobile devices the verticle line will be lost and the home will be above the away teams separated by a horizontal rule.
+
+*    #### **Sign Up Form**
+     Here I've included the link to the relevent social media sites and the sign up for the weekly newsletter.
+     After the user fills out the form and hits the sign up button, feedback will be given in the form of a pop up modal.
