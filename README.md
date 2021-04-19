@@ -138,3 +138,6 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 
 *    #### **Players To Watch**
      Again with the help of  __Bootstrap__ I've used two player head shots one left and one right with a write up underneath, on mobile devices these will be displayed side by side, the same as the Superbowl wins.
+
+*    #### **Season Opponents**
+     I've used __Bootstraps__ grid to display both home and away opponents seperated by a verticle line, images will be used for each team. On mobile devices the verticle line will be lost and the home will be above the away teams separated by a horizontal rule.
