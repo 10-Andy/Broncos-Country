@@ -109,3 +109,8 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 <a></a>
 * #### **Icons**
     The icons I've utilized in the project are from __Font Awesome__. The main icon used is to turn the nav bar into an american football on mobile devices.
+
+<a></a>
+* #### **Colors**
+    Ive based my color scheme on the teams main     colors.
+    I've researched and found on __Code of colors__ the RGBA color codes so I can implement them in my project.
