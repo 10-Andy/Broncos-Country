@@ -95,3 +95,13 @@ For the base of this structure ive used __Bootstrap__, it will provide numerous 
     * #### [**__Desktop Wireframe__**]()
     * #### [**__Tablet Wireframe__**]()
     * #### [**__Mobile Wireframe__**]()
+
+    <a></a>
+### **Surface**
+As the Denver Broncos are a sports team, I've made my design choices based on their color scheme, and images of players and the stadium.
+
+<a></a>
+* #### **Fonts**
+    I've used __Google Fonts__ to find an apporiate font for this project. For my heading I've used _____ , 
+
+    For my content I've used ______. I've used these fonts to stand out  and compliment one another.
