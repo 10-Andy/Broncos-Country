@@ -64,3 +64,11 @@ is for the user to sign up to my weekly Broncos Country Newsletter.
     the weekly newsletter 
     * As a user, I need the website to be easy and simple to use 
     * As a user, I expect social meadia links to open on a seperate tab
+<a></a>
+### **Scope**
+
+* #### **Expectations**
+    * When clicking a link (ie social media ), I expect the page to open in a new tab
+    * I expect feedback from the newsletter after I've signed up
+    * I expect the nav bar links to navagate me around the site correctly 
+    * I expect a good designed website that allows for an enjoyable user experience 
