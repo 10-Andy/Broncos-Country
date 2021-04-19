@@ -145,3 +145,12 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 *    #### **Sign Up Form**
      Here I've included the link to the relevent social media sites and the sign up for the weekly newsletter.
      After the user fills out the form and hits the sign up button, feedback will be given in the form of a pop up modal.
+
+<a></a>
+* ### **Future Features**
+
+    * News section for the latest stories about the Denver Broncos and around the NFL.
+    * Live score board with information on the games as they are being played. 
+    * Full 53 man roster stats sheet.
+    * A database to store all the emails that sign up to the weekly newsletter.
+    * A comment section so fans can interact with each other.
