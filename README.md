@@ -124,3 +124,7 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 *   #### **Hero Image**
 
      I have used a full width hero image at the top of the page, this will be an aerial view of the team stadium. This will also have the name of the website over the image.
+
+*   #### **Navigation**
+
+     I've used __Bootstraps Javascript__ to implement a responsive navbar, on mobile device it will have an american football icon. It will have the navbar fixed to the top of the page and include 5 links to allow easy navigation.
