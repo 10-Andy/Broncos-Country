@@ -154,3 +154,11 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
     * Full 53 man roster stats sheet.
     * A database to store all the emails that sign up to the weekly newsletter.
     * A comment section so fans can interact with each other.
+
+<a></a>
+## **Technologies Used**
+<a></a>
+* ### **Languages**
+     * [HTML](https://en.wikipedia.org/wiki/HTML)
+     * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+     * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
