@@ -105,3 +105,7 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
     I've used __Google Fonts__ to find an apporiate font for this project. For my heading I've used _____ , 
 
     For my content I've used ______. I've used these fonts to stand out  and compliment one another.
+
+<a></a>
+* #### **Icons**
+    The icons I've utilized in the project are from __Font Awesome__. The main icon used is to turn the nav bar into an american football on mobile devices.
