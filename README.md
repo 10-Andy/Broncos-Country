@@ -198,3 +198,5 @@ To run the project locally:
 1. Open your IDE, and ensure the Git Terminal is open.
 1. Change the working directory to the location where the cloned directory is to be made.
 1. Use the **"git clone" command** and paste the URL copied in the second step.
+
+## **Credits**
