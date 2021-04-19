@@ -135,3 +135,6 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 
 *    #### **Superbowl Wins**
      I've used __Bootstraps__ grid to add 3 pictures of the Superbowls the team have won, these will have the score and a short write up underneath. For mobile devices the images will be displayed on the left with the paragraphs on the right.
+
+*    #### **Players To Watch**
+     Again with the help of  __Bootstrap__ I've used two player head shots one left and one right with a write up underneath, on mobile devices these will be displayed side by side, the same as the Superbowl wins.
