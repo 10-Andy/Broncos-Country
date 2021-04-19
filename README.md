@@ -72,3 +72,10 @@ is for the user to sign up to my weekly Broncos Country Newsletter.
     * I expect feedback from the newsletter after I've signed up
     * I expect the nav bar links to navagate me around the site correctly 
     * I expect a good designed website that allows for an enjoyable user experience 
+
+* #### **Requirements**
+    * Responsive design that works on all devices 
+    * Navigation menu that is simple to use 
+    * Well designed and functional
+    * Visually appealing
+    * Sign up form for newsletter that is easy to use 
