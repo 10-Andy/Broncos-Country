@@ -162,3 +162,14 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
      * [HTML](https://en.wikipedia.org/wiki/HTML)
      * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
      * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+<a></a>
+* ### **Tools and Libraries**
+     * [GitHub](https://github.com/)
+     * [Bootstrap](https://getbootstrap.com/)
+     * [Google Fonts](https://fonts.google.com/)
+    * [Balsamic](https://balsamiq.com/wireframes/)
+     * [Font Awesome](https://fontawesome.com/)
+     * [W3C HTML Validation Service](https://validator.w3.org/)
+     * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+     * [techsini](http://techsini.com/)
