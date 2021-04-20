@@ -92,9 +92,9 @@ For the base of this structure ive used __Bootstrap__, it will provide numerous 
 
     links bellow 
 
-    * #### [**__Desktop Wireframe__**]()
-    * #### [**__Tablet Wireframe__**]()
-    * #### [**__Mobile Wireframe__**]()
+    * #### [**__Desktop Wireframe__**](wireframes/Broncos-Country-Desktop.png)
+    * #### [**__Tablet Wireframe__**](wireframes/Broncos-Country-tablet.png)
+    * #### [**__Mobile Wireframe__**](wireframes/Broncos-Country-Mobile.png)
 
     <a></a>
 ### **Surface**
@@ -114,6 +114,8 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 * #### **Colors**
     Ive based my color scheme on the teams main     colors.
     I've researched and found on __Code of colors__ the RGBA color codes so I can implement them in my project.
+
+    ![Color Scheme](wireframes/broncos-team-colors.png)
 
 <a></a>
 ## **Features**
