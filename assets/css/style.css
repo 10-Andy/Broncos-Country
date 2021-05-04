@@ -1,0 +1,56 @@
+#broncos-badge {
+    width: 50px;
+    height: 50px;
+}
+
+/*--------------------------------- hero image */
+
+.hero-image {
+    background: url('../images/hero-image/stadium1.jpg') no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+/*--------------------------------- superbowls wins */
+.wins {
+    border: 0.5px solid #fb4f14;
+}
+
+.sbwins {
+    margin-bottom: 30px;
+}
+
+.sbtbl {
+    margin-left: 5px;
+}
+
+#superbowl {}
+
+.sb32 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+
+.sb33 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+
+
+.sb50 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 15px;
+}
