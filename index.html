@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
+    <meta name="broncos-country" content="denver-broncos-fan-site" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/sandstone/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -15,7 +15,7 @@
 <body>
     <!--Navbar-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#welcome"><img src="assets/images/opponents/broncos.png" width="30" height="30"
+        <a class="navbar-brand" href="#welcome"><img id="broncos-badge" src="assets/images/opponents/broncos.png"
                 alt="Denver Broncos"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,13 +43,14 @@
     </nav>
 
     <!--Welcome Section-->
-    <section id="welcome">
-        <h1 class="text-center">Welcome Broncos Country</h1>
-        <div>
-            <p class="text-center">Founded as an American Football League club on August 14, 1959,
-                the Broncos participated in the AFL’s first regular season game,
-                beating the Boston Patriots 13-10 in 1960.</p>
+    <section>
+
+        <div class="hero-image">
+            <h1 class="text-center">Welcome Broncos Country</h1>
         </div>
+        <p class="text-center">Founded as an American Football League club on August 14, 1959,
+            the Broncos participated in the AFL’s first regular season game,
+            beating the Boston Patriots 13-10 in 1960.</p>
         <div class="container">
             <div class="row">
 
@@ -60,7 +61,8 @@
                             game,
                             9/9/60.</li>
                         <li>First Regular-Season Game Attendance: 18,372</li>
-                        <li>First Regular-Season Touchdown: A 59-yard pass from Frank Tripucka to Al Carmichael vs. the
+                        <li>First Regular-Season Touchdown: A 59-yard pass from Frank Tripucka to Al Carmichael vs.
+                            the
                             Boston
                             Patriots,
                             9/9/60.</li>
@@ -69,9 +71,11 @@
                             Divisional Playoff
                             game,
                             12/24/77.</li>
-                        <li>First Super Bowl Appearance: A 27-10 loss to the Dallas Cowboys in Super Bowl XII, 1/15/78.
+                        <li>First Super Bowl Appearance: A 27-10 loss to the Dallas Cowboys in Super Bowl XII,
+                            1/15/78.
                         </li>
-                        <li>First to Rush 100 Yards in a Game: Don Stone, 104 yards vs. the San Diego Chargers, 10/6/63.
+                        <li>First to Rush 100 Yards in a Game: Don Stone, 104 yards vs. the San Diego Chargers,
+                            10/6/63.
                         </li>
                         <li>First 1,000-Yard Rusher: Floyd Little, 1,133 yards (1971).</li>
                     </ul>
@@ -105,14 +109,16 @@
                         <li> First to Pass 400 Yards in a Game: Frank Tripucka, 447 yards vs. the Buffalo Bills,
                             9/15/62.
                         </li>
-                        <li>First Super Bowl Win: A win over the Green Bay Packers in Super Bowl XXXII, 1/25/98.</li>
+                        <li>First Super Bowl Win: A win over the Green Bay Packers in Super Bowl XXXII, 1/25/98.
+                        </li>
                         <li>Most Career Rushing Yards: Terrell Davis, 7,607 yards (1995-2001).</li>
                         <li>Most Career Passing Yards: John Elway, 51,475 yards (1983-1998).</li>
                         <li> Most Career Receptions: Rod Smith, 849 receptions (1995-2006).</li>
                         <li>All-Time Leading Scorer: Jason Elam, 1,786 points (1993-2007).</li>
                         <li> Most Lopsided Win: A 46-3 victory over the New York Jets, 9/19/76.</li>
                         <li>Original Uniform Colors: Seal brown and light gold.</li>
-                        <li>Coldest Game in Team History: Zero degrees (-30 wind chill), 12/18/83 at Kansas City.</li>
+                        <li>Coldest Game in Team History: Zero degrees (-30 wind chill), 12/18/83 at Kansas City.
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -121,37 +127,24 @@
     <br>
 
     <!--Superbowl Wins-->
-    <section id="SuperBowl">
-        <div class="container">
+    <section id="superbowl">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-12 col-sm-4">
+                <div class="col-12 col-sm-4" id="sb32">
+                    <div class="col-12 col-sm-4"><img src="assets/images/superbowls/Super_BowlXXXII.png"
+                            alt="superbowl-1997" class="sb32"></div>
 
-                    <table class="table table-sm table-bordered">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="text-center">Green Bay Packers</th>
-                                <th scope="col" class="text-center">Denver Broncos</th>
 
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-
-                                <td class="text-center">NFC</td>
-                                <td class="text-center">AFC</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">13–3</td>
-                                <td class="text-center">12–4</td>
-                            </tr>
-                            <tr>
-
-                                <td class="text-center">24</td>
-                                <td class="text-center">31</td>
-
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="row row-cols-2 px-1 sbwins">
+                        <div class="col wins font-weight-bolder">Green Bay Packers</div>
+                        <div class="col wins font-weight-bolder">Denver Broncos</div>
+                        <div class="col wins">NFC</div>
+                        <div class="col wins">AFC</div>
+                        <div class="col wins">13–3</div>
+                        <div class="col wins">12-4</div>
+                        <div class="col wins">24</div>
+                        <div class="col wins">31</div>
+                    </div>
                     <p>
                         The Broncos defeated the Packers by the score of 31–24. The game was played on January 25, 1998,
                         at Qualcomm Stadium in San Diego, California, the second time that the Super Bowl was held in
@@ -166,75 +159,58 @@
                         touchdowns.
                     </p>
                 </div>
-                <div class="col-12 col-sm-4">
-                    <table class="table table-sm table-bordered">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="text-center">Denver Broncos</th>
-                                <th scope="col" class="text-center">Atlanta Falcons</th>
 
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
 
-                                <td class="text-center">AFC</td>
-                                <td class="text-center">NFC</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">14–2</td>
-                                <td class="text-center">14–2</td>
-                            </tr>
-                            <tr>
+                <div class="col-12 col-sm-4" id="sb33">
+                    <div col-12 col-sm-4><img src="assets/images/superbowls/SuperBowlXXXIII.png" alt="superbowl-1998"
+                            class="sb33">
+                    </div>
 
-                                <td class="text-center">34</td>
-                                <td class="text-center">19</td>
-
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p>The Broncos defeated the Falcons by the score of 34–19, winning their second consecutive Super
+                    <div class="row row-cols-2 px-1 sbwins">
+                        <div class="col wins font-weight-bolder">Denver Broncos</div>
+                        <div class="col wins font-weight-bolder">Atlanta Falcons</div>
+                        <div class="col wins">AFC</div>
+                        <div class="col wins">NFC</div>
+                        <div class="col wins">14–2</div>
+                        <div class="col wins">14-2</div>
+                        <div class="col wins">34</div>
+                        <div class="col wins">19</div>
+                    </div>
+                    <p>The Broncos defeated the Falcons by the score of 34–19, winning their second consecutive
+                        Super
                         Bowl.
-                        The game was played on January 31, 1999, at Pro Player Stadium in Miami, Florida.The defending
+                        The game was played on January 31, 1999, at Pro Player Stadium in Miami, Florida.The
+                        defending
                         Super Bowl champion Broncos entered the game with an AFC-best 14–2 regular season record.
                         Aided by quarterback John Elway's 80-yard touchdown pass the 38 year old went on to be named
                         Super
                         Bowl MVP,
-                        the oldest player to win it until Tom Brady(New England Patriots) in 2017 at the age of 39 </p>
+                        the oldest player to win it until Tom Brady(New England Patriots) in 2017 at the age of 39
+                    </p>
                 </div>
-                <div class="col-12 col-sm-4">
-                    <table class="table table-sm table-bordered">
-                        <thead>
-                            <tr>
-                                <th scope="col" class="text-center">Carolina Panthers</th>
-                                <th scope="col" class="text-center">Denver Broncos</th>
 
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
 
-                                <td class="text-center">NFC</td>
-                                <td class="text-center">AFC</td>
-                            </tr>
-                            <tr>
-                                <td class="text-center">15–1</td>
-                                <td class="text-center">12–4</td>
-                            </tr>
-                            <tr>
 
-                                <td class="text-center">10</td>
-                                <td class="text-center">24</td>
+                <div class="col-12 col-sm-4" id="sb50">
+                    <img src="assets/images/superbowls/SuperBowl50.png" alt="superbowl-2015" class="sb50">
 
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="row row-cols-2 px-1 sbwins">
+                        <div class="col wins font-weight-bolder">Carolina Panthers</div>
+                        <div class="col wins font-weight-bolder">Denver Broncos</div>
+                        <div class="col wins">NFC</div>
+                        <div class="col wins">AFC</div>
+                        <div class="col wins">15–1</div>
+                        <div class="col wins">12–4</div>
+                        <div class="col wins">10</div>
+                        <div class="col wins">24</div>
+                    </div>
                     <p>The Denver Broncos defeated the Carolina Panthers, 24–10. The game was played on February 7,
                         2016, at Levi's Stadium in Santa Clara, California, in the San Francisco Bay Area. The NFL
                         Dropped
                         the
                         traditional
-                        use of Roman numerals as it was the 50th SuperBowl game, so the logo could prominently feature
+                        use of Roman numerals as it was the 50th SuperBowl game, so the logo could prominently
+                        feature
                         the
                         number
                         50, the golden anniversary.
@@ -242,7 +218,8 @@
                         Peyton
                         Manning's
                         career;
-                        the Broncos quarterback, who also won Super Bowl XLI, announced his retirement in March 2016.
+                        the Broncos quarterback, who also won Super Bowl XLI, announced his retirement in March
+                        2016.
                     </p>
                 </div>
             </div>
