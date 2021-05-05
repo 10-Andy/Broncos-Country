@@ -1,56 +1,130 @@
+/*--------------------------------- navbar */
+
 #broncos-badge {
     width: 50px;
     height: 50px;
 }
 
+.nbar {
+    background-color: #888;
+
+}
+
+.nbar .nav-item .nav-link {
+    color: #024;
+    text-transform: initial;
+}
+
 /*--------------------------------- hero image */
 
 .hero-image {
-    background: url('../images/hero-image/stadium1.jpg') no-repeat center center fixed;
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url('../images/hero-image/stadium1.jpg') no-repeat fixed center center;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
+.welcome {
+    font-size: 5.5vw;
+    font-weight: 200;
+    color: #024;
+    font-family: "Ubuntu"sans-serif;
+}
+
+/*--------------------------------- facts section */
+
+.facts-section {
+    background-color: #888;
+
+}
+
+.welcome-p {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: "Fira"sans-serif;
+    color: #024;
+    font-weight: bold
+}
+
+.facts {
+    font-size: 1rem;
+    font-family: "Fira"sans-serif;
+    color: #024;
+}
+
+.facts-1 {
+    margin-top: 30px;
+}
+
+.facts-3 {
+    margin-top: 30px;
+}
+
+.facts-2 {
+    margin-top: 90px;
+}
+
+
+
+.facts-logo {
+    text-align: center;
+    border-radius: 5px 20px 5px;
+    border: 3px solid #024
 }
 
 /*--------------------------------- superbowls wins */
 .wins {
-    border: 0.5px solid #fb4f14;
+    border: 0.5px solid #888;
 }
 
 .sbwins {
     margin-bottom: 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .sbtbl {
     margin-left: 5px;
 }
 
-#superbowl {}
+#superbowl {
+    background-color: #024;
+    color: #fb4f14;
+    font-family: "Fira"sans-serif;
+
+}
 
 .sb32 {
     width: 300px;
-    height: 200px;
-    margin-bottom: 15px;
+    height: 250px;
+    margin-bottom: 50px;
 }
 
 
 .sb33 {
     width: 300px;
-    height: 200px;
-    margin-bottom: 15px;
+    height: 250px;
+    margin-bottom: 50px;
 }
 
 
 
 .sb50 {
     width: 300px;
-    height: 200px;
-    margin-bottom: 15px;
+    height: 250px;
+    margin-bottom: 50px;
 }
+
+.sbp {
+    margin-bottom: 50px;
+    font-size: 1rem;
+}
+
+/*--------------------------------- superbowls wins */
