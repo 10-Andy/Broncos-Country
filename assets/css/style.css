@@ -18,7 +18,7 @@
 /*--------------------------------- hero image */
 
 .hero-image {
-    background: url('../images/hero-image/stadium1.jpg') no-repeat fixed center center;
+    background: url('../images/hero-image/stadium1.png') no-repeat fixed center center;
     height: 85vh;
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     font-size: 1.5rem;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-family: "Fira"sans-serif;
+    font-family: "Open"sans-serif;
     color: #024;
     font-weight: bold
 }
 
 .facts {
     font-size: 1rem;
-    font-family: "Fira"sans-serif;
+    font-family: "Fira Sans"sans-serif;
     color: #024;
 }
 
@@ -97,7 +97,7 @@
 #superbowl {
     background-color: #024;
     color: #fb4f14;
-    font-family: "Fira"sans-serif;
+    font-family: "Fira Sans"sans-serif;
 
 }
 
