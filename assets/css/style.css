@@ -1,3 +1,35 @@
+/*--------------------------------- general */
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.7rem;
+}
+
+.sbwins-hr {
+    border: 1px solid #fb4f14;
+    width: 35%;
+
+}
+
+.players-hr {
+    border: 1px solid #024;
+    width: 35%;
+}
+
+.hr-opponents {
+    border: 3px solid #fb4f14;
+    width: 80%;
+    margin: 50px auto 50px auto;
+}
+
+.opponents-hr {
+    border: 1px solid #fb4f14;
+    width: 35%;
+
+}
+
+
+
+
 /*--------------------------------- navbar */
 
 #broncos-badge {
@@ -18,8 +50,9 @@
 /*--------------------------------- hero image */
 
 .hero-image {
-    background: url('../images/hero-image/stadium1.png') no-repeat fixed center center;
+    background: url('../images/hero-image/stadium1.jpg') no-repeat fixed center center;
     height: 85vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,13 +61,14 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    margin: auto;
 }
 
 .welcome {
     font-size: 5.5vw;
     font-weight: 200;
     color: #024;
-    font-family: "Ubuntu"sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*--------------------------------- facts section */
@@ -48,14 +82,14 @@
     font-size: 1.5rem;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-family: "Open"sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: #024;
     font-weight: bold
 }
 
 .facts {
     font-size: 1rem;
-    font-family: "Fira Sans"sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: #024;
 }
 
@@ -80,6 +114,10 @@
 }
 
 /*--------------------------------- superbowls wins */
+.sbwins-heading {
+    background-color: ;
+}
+
 .wins {
     border: 0.5px solid #888;
 }
@@ -97,28 +135,25 @@
 #superbowl {
     background-color: #024;
     color: #fb4f14;
-    font-family: "Fira Sans"sans-serif;
+    font-family: 'Oxygen', sans-serif;
 
 }
 
 .sb32 {
-    width: 300px;
-    height: 250px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
 
 .sb33 {
-    width: 300px;
-    height: 250px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
 
 
 .sb50 {
-    width: 300px;
-    height: 250px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -127,4 +162,45 @@
     font-size: 1rem;
 }
 
-/*--------------------------------- superbowls wins */
+/*--------------------------------- players to watch */
+
+#players {
+    background-color: #fb4f14;
+    margin: auto;
+    font-family: 'Oxygen', sans-serif;
+    color: #024;
+    font-size: 1.1rem;
+}
+
+.jerry {
+    height: inherit;
+    width: 300px;
+    margin-top: 5vh;
+}
+
+.von {
+    margin-top: 5vh;
+    height: inherit;
+    width: 300px;
+}
+
+.players2watch {
+    margin-top: 3vh;
+}
+
+.players2watch h3 {
+    margin-bottom: 2vh;
+}
+
+/*--------------------------------- 2021 opponents */
+
+.opponents-logo {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.opponents-logo1 {
+    border-radius: 50%;
+    width: 65%;
+    margin-left: 12%;
+}
