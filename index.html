@@ -58,7 +58,8 @@
             <h1 class="text-center welcome">Welcome Broncos Country</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 facts-logo" id="welcome"> <img src="assets/images/opponents/broncos.png">
+                    <div class="col-12 facts-logo" id="welcome"> <img src="assets/images/opponents/broncos.png"
+                            alt="denver-brocos-logo" class="broncos-nav-logo">
                     </div>
                     <p class="text-center welcome-p">Founded as an American Football League club on August 14, 1959,
                         the Broncos participated in the AFL’s first regular season game,
@@ -149,7 +150,7 @@
         <h2>SuperBowl Wins</h2>
         <hr class="sbwins-hr">
         <br>
-        <div class="container ">
+        <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-4" id="sb32">
                     <div class="col-12 col-sm-4"><img src="assets/images/superbowls/Super_BowlXXXII.png"
@@ -249,11 +250,11 @@
         </div>
     </section>
     <!--Players to watch-->
-    <section id="players" class="text-center">
+    <section id="players" class="text-center players-section-full">
         <h2>Players To Watch</h2>
         <hr class="players-hr">
         <br>
-        <div class="container">
+        <div class=".container-fluid">
             <div class="row">
                 <div class="col-12 col-sm-6"><img src="assets/images/players-to-watch/von.jpeg" alt="von-miller"
                         class="von">
@@ -302,7 +303,7 @@
         </div>
     </section>
     <!--opponents section-->
-    <div class="container" id="opponents">
+    <div class=".container opponents-section-full" id="opponents">
         <h2 class="text-center">2021 Season Opponents</h2>
         <hr class="opponents-hr">
         <div class="row">
@@ -370,8 +371,8 @@
 
 
 
-            <div class="col-12 col-md-1">
-                <hr class="hr-opponents">
+            <div class="col-12 col-md-1 vr-line">
+                <div class="vr-opponents vr-opponents1"></div>
             </div>
 
 
@@ -430,14 +431,71 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!--sign up  form-->
+    <section class="sign-up-form text-center ">
+        <form>
+            <div class="form-logo">
+                <img src="assets/images/opponents/broncos.png" alt="denver-brocos-logo" class="form-logo">
+            </div>
+            <div>
+                <label for="full-name">Full name</label>
+                <input type="text" class="form-control text-center" placeholder="Full name" required>
+
+                <div class="form-group">
+                    <label for="Email">Email Address</label>
+                    <input type="email" class="form-control text-center" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="repeat-email">Repeat Email Address</label>
+                    <input type="repeat-email" class="form-control text-center" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Repeat Email" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Are You Happy To Receive Our Weekly
+                        Broncos Country Updates</label>
+                </div>
+                <button type="button" class="btn sign-up-pop-up-btn " data-toggle="modal" data-target="#exampleModal">
+                    Sign Up!!
+                </button>
+        </form>
+        <!--sign up  form-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content sign-up-modal">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">!!Broncos Country Weekly Newsletter!!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Thank you.
+                        You've just sign up to our weekly Broncos counrty updates.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn modal-pop-up-btn" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
 
 
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-        <script src="assets/js/app.js">
-        </script>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js">
+    </script>
 </body>
 
 </html>
