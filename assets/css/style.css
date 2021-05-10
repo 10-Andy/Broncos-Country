@@ -140,20 +140,26 @@ h2 {
 }
 
 .sb32 {
-    width: 100%;
+    margin: auto;
+    width: 270px;
+    height: 250px;
     margin-bottom: 50px;
 }
 
 
 .sb33 {
-    width: 100%;
+    margin: 0 auto;
+    width: 270px;
+    height: 250px;
     margin-bottom: 50px;
 }
 
 
 
 .sb50 {
-    width: 100%;
+    margin: 0 auto;
+    width: 270px;
+    height: 250px;
     margin-bottom: 50px;
 }
 
@@ -163,6 +169,12 @@ h2 {
 }
 
 /*--------------------------------- players to watch */
+
+.players-section-full {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
 
 #players {
     background-color: #fb4f14;
@@ -176,12 +188,14 @@ h2 {
     height: inherit;
     width: 300px;
     margin-top: 5vh;
+    border-radius: 50%;
 }
 
 .von {
     margin-top: 5vh;
     height: inherit;
     width: 300px;
+    border-radius: 50%;
 }
 
 .players2watch {
@@ -203,4 +217,60 @@ h2 {
     border-radius: 50%;
     width: 65%;
     margin-left: 12%;
+}
+
+.opponents-section-full {
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+
+.vr-opponents1 {
+    width: 3px;
+    height: 250px;
+    background: #fb4f14;
+    margin: auto;
+}
+
+.vr-line {
+    height: 100%;
+    margin: auto;
+}
+
+/*--------------------------------- sign up form */
+.sign-up-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 85%;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    border: solid 4px #fb4f14;
+}
+
+.form-logo {
+
+    width: 55%;
+    margin: 0 auto;
+}
+
+.sign-up-modal {
+    color: #fb4f14;
+}
+
+.sign-up-pop-up-btn {
+    background-color: #fb4f14;
+    color: #024;
+
+}
+
+.modal-pop-up-btn {
+    background-color: #fb4f14;
+    color: #024;
+}
+
+@media only screen and (max-width: 600px) {
+    .vr-opponents {
+        transform: rotate(0.25turn)
+    }
 }
