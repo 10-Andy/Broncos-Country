@@ -133,7 +133,7 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 
 *    #### **Welcome Section**
 
-     This displays the teams logo surrounded by 4 short paragraphs, these will have 4 facts about the teams history. Two paragraphs will be hidden on mobile for design purposes.
+     This displays the teams old logo 1 short paragraphs, these will have 3 fact sections about the teams history. One facts section  will be hidden on mobile for design purposes.
 
 *    #### **Superbowl Wins**
      I've used __Bootstraps__ grid to add 3 pictures of the Superbowls the team have won, these will have the score and a short write up underneath. For mobile devices the images will be displayed on the left with the paragraphs on the right.
