@@ -102,9 +102,9 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 
 <a></a>
 * #### **Fonts**
-    I've used __Google Fonts__ to find an apporiate font for this project. For my heading I've used _____ , 
+    I've used __Google Fonts__ to find an apporiate font for this project. For my heading I've used Ubuntu , 
 
-    For my content I've used ______. I've used these fonts to stand out  and compliment one another.
+    For my content I've used Oxygen. I've used these fonts to stand out  and compliment one another.
 
 <a></a>
 * #### **Icons**
@@ -112,8 +112,8 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 
 <a></a>
 * #### **Colors**
-    Ive based my color scheme on the teams main     colors.
-    I've researched and found on __Code of colors__ the RGBA color codes so I can implement them in my project.
+    Ive based my color scheme on the teams main colors.
+    I've researched and found on [Code of colors](https://www.codeofcolors.com/denver-broncos-colors.html) the RGBA color codes so I can implement them in my project.
 
     ![Color Scheme](wireframes/broncos-team-colors.png)
 
@@ -186,19 +186,17 @@ This project was deployed via GitHub by executing the following steps.
 After writing the code, committing and pushing it to GitHub:
 
 1. Log in to **GitHub** and locate the **Repository**
-1. At the top of the repository on github and click **Settings**.
-1. Scroll down the settings page until you find **GitHub Pages** section. Go to the **Source section** within the Github Pages section.
-1. Under source select **master branch** on the dropdown menu, and click save.
-1. Now the website is live on [x]
-1. Any time commits and pushes are sent to Github, the Github Pages site should update shortly after.
-
-To run the project locally:
-
-1. Log in to **GitHub** and locate the **Repository**
-1. Under the Github Repository **green Clone or Download button** 
-1. Using the **Clone with HTTPS option**, copy the link displayed.
-1. Open your IDE, and ensure the Git Terminal is open.
-1. Change the working directory to the location where the cloned directory is to be made.
-1. Use the **"git clone" command** and paste the URL copied in the second step.
+1. Go to your github repository and click on "Settings" tab
+1. Then go to "Pages" tab in the left hand side sidebar.
+* 1.Then under "Source" click the "None" dropdown and select the "Main" branch
+Click "Save"
+1. The page will update and at the top it will say: "Your site is ready to be published at https://10-andy.github.io/Broncos-Country/
 
 ## **Credits**
+
+I've used the following websites for my project 
+
+
+* [Pro Football Hall Of Fame](https://www.profootballhof.com/)
+* [wikipedia](https://www.wikipedia.org/)
+* [ESPN](https://www.espn.com/)
