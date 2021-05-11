@@ -179,6 +179,33 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 <a></a>
 ## **Testing**
 
+  ### Nav Bar ###
+
+* I wanted a colapsable nav bar with an american football icon and 5 working links to navigate the page. 
+       I also wanted a logo that will be used as another link button. To do this I used bootstrap and font awesome. 
+        
+* To test I viewed the webpage page on different browsers, viewed it on different devices clicking on all the links to navigate through the page.
+
+* I found that the nav bar worked as I wanted it to. The only issue I found was that it wouldnt collapse when I clicked a link. I found a piece of javascript on slack that solved the problem.
+
+ ### SuperBowl Wins ###
+
+* I wanted the 3 images of the SuperBowl wins with the teams, scores and a short write up underneath the images.To do this I used bootstraps grid system.
+
+* To test I viewed the webpage page on different browsers and viewed it on different devices. 
+
+* I found that the image sizing that I used didnt look as well on mobile as it did on desktop, this was resolved by changing the sizing.
+
+ ### Season Opponents ###
+
+* I want all 17 season opponents displayed home and away in 2 grids with a dividing vetical line and a dividing horiziontal in mobile with home above and away below.
+
+* To test I viewed the webpage page on different browser and viewed it on different devices. 
+
+* I found that my image sizing didnt translate to mobile divices as well as I wanted and they had to be changed.
+
+
+
 <a></a>
 ## **Deployment**
 
@@ -200,3 +227,5 @@ I've used the following websites for my project
 * [Pro Football Hall Of Fame](https://www.profootballhof.com/)
 * [wikipedia](https://www.wikipedia.org/)
 * [ESPN](https://www.espn.com/)
+* [w3schools](https://www.w3schools.com/)
+* [CSS Tricks](https://css-tricks.com/)
