@@ -1,6 +1,6 @@
 # **Broncos Country**
 
-![Mokeup image](wireframes/make-up-image.png)
+![Mockup image](wireframes/mock-up-image.png)
 
 
 ## **Introduction**
