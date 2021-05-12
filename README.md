@@ -1,5 +1,8 @@
 # **Broncos Country**
 
+![Mokeup image](wireframes/make-up-image.png)
+
+
 ## **Introduction**
 
 Welcome to my first milestone project as part of my full stack developer course with Code Institue.
