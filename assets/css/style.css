@@ -23,6 +23,12 @@ h2 {
     font-size: 4.5rem;
 }
 
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    text-decoration: underline #002244;
+}
+
 .sbwins-hr {
     border: 1px solid #fb4f14;
     width: 35%;
@@ -232,6 +238,10 @@ h2 {
 .vr-line {
     height: 100%;
     margin: auto;
+}
+
+.Season-Opponents {
+    color: #fb4f14;
 }
 
 /*--------------------------------- sign up form */
