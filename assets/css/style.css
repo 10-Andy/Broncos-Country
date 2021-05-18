@@ -1,7 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+html {
+
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #002244;
+}
+
+
+
+
+
 /*--------------------------------- general */
 h2 {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.7rem;
+    font-size: 4.5rem;
 }
 
 .sbwins-hr {
@@ -11,7 +30,7 @@ h2 {
 }
 
 .players-hr {
-    border: 1px solid #024;
+    border: 1px solid #002244;
     width: 35%;
 }
 
@@ -27,6 +46,10 @@ h2 {
 
 }
 
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 
@@ -38,13 +61,23 @@ h2 {
 }
 
 .nbar {
-    background-color: #888;
+    background-color: #ffffff;
 
 }
 
 .nbar .nav-item .nav-link {
-    color: #024;
+    color: #fb4f14;
     text-transform: initial;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nbar .nav-item .nav-link:hover {
+    color: #002244;
+}
+
+#broncos-badge:hover {
+    background-color: #fb4f14;
 }
 
 /*--------------------------------- hero image */
@@ -65,107 +98,77 @@ h2 {
 }
 
 .welcome {
-    font-size: 5.5vw;
-    font-weight: 200;
-    color: #024;
+    font-size: 6rem;
+    font-weight: 700;
+    color: #fb4f14;
     font-family: 'Ubuntu', sans-serif;
 }
 
 /*--------------------------------- facts section */
 
 .facts-section {
-    background-color: #888;
+    background-color: #ffffff;
 
 }
 
 .welcome-p {
-    font-size: 1.5rem;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-family: 'Oxygen', sans-serif;
-    color: #024;
-    font-weight: bold
+
+    color: #002244;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 .facts {
-    font-size: 1rem;
-    font-family: 'Oxygen', sans-serif;
-    color: #024;
-}
-
-.facts-1 {
-    margin-top: 30px;
-}
-
-.facts-3 {
-    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #002244;
 }
 
 .facts-2 {
     margin-top: 90px;
 }
 
-
-
 .facts-logo {
     text-align: center;
     border-radius: 5px 20px 5px;
-    border: 3px solid #024
+    border: 3px solid #002244
 }
 
 /*--------------------------------- superbowls wins */
-.sbwins-heading {
-    background-color: ;
-}
+
 
 .wins {
-    border: 0.5px solid #888;
+    border: 0.5px solid #888888;
 }
 
 .sbwins {
     margin-bottom: 30px;
-    font-size: 1.1rem;
     font-weight: bold;
 }
 
-.sbtbl {
-    margin-left: 5px;
+#superbowl-heading {
+    padding-top: 50px;
+    padding-bottom: 35px;
 }
 
 #superbowl {
-    background-color: #024;
+    background-color: #002244;
     color: #fb4f14;
-    font-family: 'Oxygen', sans-serif;
+
 
 }
 
-.sb32 {
-    margin: auto;
-    width: 270px;
-    height: 250px;
-    margin-bottom: 50px;
-}
-
-
-.sb33 {
+.superbowl-logos {
     margin: 0 auto;
-    width: 270px;
-    height: 250px;
-    margin-bottom: 50px;
-}
-
-
-
-.sb50 {
-    margin: 0 auto;
-    width: 270px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 50px;
 }
 
 .sbp {
     margin-bottom: 50px;
-    font-size: 1rem;
+
 }
 
 /*--------------------------------- players to watch */
@@ -176,26 +179,20 @@ h2 {
 
 }
 
+#players-heading {
+    padding-bottom: 35px;
+}
+
 #players {
     background-color: #fb4f14;
     margin: auto;
-    font-family: 'Oxygen', sans-serif;
-    color: #024;
-    font-size: 1.1rem;
+    color: #002244;
 }
 
-.jerry {
-    height: inherit;
-    width: 350px;
-    margin-top: 5vh;
-    border-radius: 30%;
-}
 
-.von {
-    margin-top: 5vh;
-    height: inherit;
-    width: 350px;
+.players-img {
     border-radius: 30%;
+    border-color: #002244;
 }
 
 .players2watch {
@@ -242,10 +239,17 @@ h2 {
     padding-top: 50px;
     padding-bottom: 50px;
     max-width: 85%;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     margin: 0 auto;
     border: solid 4px #fb4f14;
+}
+
+.form-control {
+    width: 50%;
+    margin: auto;
+    font-weight: 700;
+    font-size: 20px;
+    color: #002244;
 }
 
 .form-logo {
@@ -256,20 +260,18 @@ h2 {
 
 .sign-up-modal {
     color: #fb4f14;
-    font-family: 'Oxygen', sans-serif;
 }
 
 .sign-up-pop-up-btn {
     background-color: #fb4f14;
-    color: #024;
-    font-family: 'Oxygen', sans-serif;
+    color: #002244;
     ;
 
 }
 
 .modal-pop-up-btn {
     background-color: #fb4f14;
-    color: #024;
+    color: #002244;
 }
 
 /*--------------------------------- footer */
@@ -279,9 +281,13 @@ h2 {
 }
 
 .social-links a {
-    color: #024;
-    font-size: 3rem;
+    color: #002244;
+    font-size: 3.5rem;
     padding: 2rem;
+}
+
+.social-links a i:hover {
+    color: #fb4f14;
 }
 
 /*--------------------------------- media  */
