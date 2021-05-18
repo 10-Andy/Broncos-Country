@@ -29,6 +29,10 @@ h3 {
     text-decoration: underline #002244;
 }
 
+h4 {
+    font-weight: 700;
+}
+
 .sbwins-hr {
     border: 1px solid #fb4f14;
     width: 35%;
@@ -282,6 +286,10 @@ h3 {
 .modal-pop-up-btn {
     background-color: #fb4f14;
     color: #002244;
+}
+
+#ModalLabel {
+    margin: auto;
 }
 
 /*--------------------------------- footer */
