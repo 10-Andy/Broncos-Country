@@ -199,11 +199,37 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
     The links worked as they should on all devices, the nav bar collapsed and the football icon appeared.
     The nav bar didnt close after i clicked a link on mobile/tablet.
 
-* #### **Verdict** 
-    Most tests passed except the issue of the nav bar not closing after a link had been clicked , i found a piece of javascript on [Stack overflow](https://stackoverflow.com/) to solve this issue.
+* #### **Result** 
+    Most tests passed except the issue of the nav bar not closing after a link had been clicked , i found a piece of JavaScript on [Stack overflow](https://stackoverflow.com/) to solve this issue.
+
+### **2021 Opponents**
+
+* #### **Plan** 
+    I wanted images of the 2021 opponents logos within a cirlce in two sections, home and away, divided by a vertical line , when view on small device the home section would be above he away sectin with a horisontal line dividing them.
+
+* #### **Implementation** 
+    Ive used bootstraps grid to help structure the teams logos, while using media queries to changing the divding line from horisontal to vertical.I used css to style the images.
 
 
+* #### **Testing**
+    I viewed the 2021 opponents section on different browsers and devices. The images in the section worked as they should with the dividing line changing as it should.
 
+* #### **Result**
+    The section worked as planned.
+
+### **Modal**
+
+* #### **Plan** 
+    I wanted a modal to provide feeback on the Broncos Country weekly email sign up form when the user completed it correctly.
+
+* #### **Implementation** 
+    I've used bopotstrap for the modal and used css to overide bootstraps css styling. i added an image of the Denver Broncos logo and text to show feedback to the user.
+
+* #### **Testing**
+    The modal preformed as it should but I found you could click the sign up button with filling in the form and the modal would show as if you completed the from, i need help from my mentor who wrote a piece of JavaScript to fix the issue.
+
+* #### **Result**
+    The modal worked as planned.
 
  ### SuperBowl Wins ###
 
