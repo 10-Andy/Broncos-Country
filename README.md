@@ -182,18 +182,32 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
 <a></a>
 ## **Testing**
 
-  ### Nav Bar ###
+  ### **Nav Bar**
 
-* I wanted a colapsable nav bar with an american football icon and 5 working links to navigate the page. 
-       I also wanted a logo that will be used as another link button. To do this I used bootstrap and font awesome. 
+* #### **Plan** 
+    I wanted a navigation bar that is fixed to the top of the page , with 6 clickable links, that was clear and easy to use , one being an image of the Denver Broncos logo. When clicked the links with help you navagate through the page with ease. On mobile and some tablet devices I wanted the navbar to be collapsable using an american football icon.
+    
         
-* To test I viewed the webpage page on different browsers, viewed it on different devices clicking on all the links to navigate through the page.
+* #### **Implementation** 
+    I used bootstrap to implement my nav bar . this allowed for easy design and structure. I used Font Awsome for the icon ,used my own css to overide the bootstrap css to make the nav bar fit in with the overall design.
 
-* I found that the nav bar worked as I wanted it to. The only issue I found was that it wouldnt collapse when I clicked a link. I found a piece of javascript on slack that solved the problem.
+* #### **Testing**
+    To test the nav bar i clicked on all the links to make sure the work as they should on both desktop and mobile views.Also chcking does the nav bar collapse and the football icon appear on smaller devices.
+
+
+* #### **Result**
+    The links worked as they should on all devices, the nav bar collapsed and the football icon appeared.
+    The nav bar didnt close after i clicked a link on mobile/tablet.
+
+* #### **Verdict** 
+    Most tests passed except the issue of the nav bar not closing after a link had been clicked , i found a piece of javascript on [Stack overflow](https://stackoverflow.com/) to solve this issue.
+
+
+
 
  ### SuperBowl Wins ###
 
-* I wanted the 3 images of the SuperBowl wins with the teams, scores and a short write up underneath the images.To do this I used bootstraps grid system.
+* I wanted the 3 images of the SuperBowl wins with the teams, scores and a short write up underneath the images. To do this I used bootstraps grid system.
 
 * To test I viewed the webpage page on different browsers and viewed it on different devices. 
 
