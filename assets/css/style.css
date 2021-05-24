@@ -13,10 +13,6 @@ body {
     color: #002244;
 }
 
-
-
-
-
 /*--------------------------------- general */
 h2 {
     font-family: 'Ubuntu', sans-serif;
@@ -53,6 +49,7 @@ h4 {
 .opponents-hr {
     border: 1px solid #fb4f14;
     width: 35%;
+    margin-bottom: 50px;
 
 }
 
@@ -60,8 +57,6 @@ h4 {
     margin-left: 0;
     margin-right: 0;
 }
-
-
 
 /*--------------------------------- navbar */
 
@@ -92,7 +87,7 @@ h4 {
 
 /*--------------------------------- hero image */
 
-.hero-image {
+#hero-image {
     background: url('../images/hero-image/stadium3.jpg') no-repeat fixed center center;
     height: 85vh;
     width: 100%;
@@ -116,7 +111,7 @@ h4 {
 
 /*--------------------------------- facts section */
 
-.facts-section {
+#facts-section {
     background-color: #ffffff;
 
 }
@@ -142,7 +137,12 @@ h4 {
 .facts-logo {
     text-align: center;
     border-radius: 5px 20px 5px;
-    border: 3px solid #002244
+    border: 3px solid #002244;
+
+}
+
+.facts-logo img {
+    width: 280px;
 }
 
 /*--------------------------------- superbowls wins */
@@ -165,21 +165,21 @@ h4 {
 #superbowl {
     background-color: #002244;
     color: #fb4f14;
-
-
 }
 
-.superbowl-logos {
-    margin: 0 auto;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 50px;
-}
 
 .sbp {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 
 }
+
+.superbowl-img .img-thumbnail {
+    background-color: inherit;
+    border: none;
+    margin-bottom: 15px;
+    max-height: 300px;
+}
+
 
 /*--------------------------------- players to watch */
 
@@ -226,7 +226,7 @@ h4 {
     margin-left: 12%;
 }
 
-.opponents-section-full {
+#opponents {
     padding-top: 50px;
     padding-bottom: 80px;
 
@@ -249,7 +249,7 @@ h4 {
 }
 
 /*--------------------------------- sign up form */
-.sign-up-form {
+#signup {
     padding-top: 50px;
     padding-bottom: 50px;
     max-width: 85%;

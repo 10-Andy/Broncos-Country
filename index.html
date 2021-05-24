@@ -26,8 +26,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#welcome">Welcome<span class="sr-only">(current)</span></a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#welcome">Welcome<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#superbowl">Superbowl Wins</a>
@@ -48,14 +48,14 @@
     <!--Welcome Section-->
 
     <section>
-        <div class="hero-image">
+        <div id="hero-image">
         </div>
-        <div class="facts-section">
+        <div id="facts-section">
             <h1 class="text-center welcome">Welcome Broncos Country</h1>
             <div class="container">
                 <div class="row">
                     <div class="col-12 facts-logo" id="welcome"> <img src="assets/images/opponents/broncos.png"
-                            alt="denver-brocos-logo" class="broncos-nav-logo">
+                            alt="denver-brocos-logo" class="broncos-logo">
                     </div>
                     <p class="text-center welcome-p">Founded as an American Football League club on August 14, 1959,
                         the Broncos participated in the AFL’s first regular season game,
@@ -145,9 +145,9 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-4">
-                    <div><img src="assets/images/superbowls/Super_BowlXXXII.png" alt="superbowl-1997"
-                            class="superbowl-logos"></div>
+                <div class="col-12 col-lg-4">
+                    <div class="superbowl-img"><img src="assets/images/superbowls/Super_BowlXXXII.png"
+                            alt="superbowl-1997" class="img-thumbnail"></div>
                     <div class="row row-cols-2 px-1 sbwins">
                         <div class="col wins font-weight-bolder">Green Bay Packers</div>
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
@@ -174,9 +174,9 @@
                         touchdowns.
                     </p>
                 </div>
-                <div class="col-12 col-sm-4">
-                    <div><img src="assets/images/superbowls/SuperBowlXXXIII.png" alt="superbowl-1998"
-                            class="superbowl-logos">
+                <div class="col-12 col-lg-4">
+                    <div class="superbowl-img"><img src="assets/images/superbowls/SuperBowlXXXIII.png"
+                            alt="superbowl-1998" class="img-thumbnail">
                     </div>
                     <div class="row row-cols-2 px-1 sbwins">
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
@@ -201,8 +201,11 @@
                         the oldest player to win it until Tom Brady(New England Patriots) in 2017 at the age of 39
                     </p>
                 </div>
-                <div class="col-12 col-sm-4 text-center">
-                    <img src="assets/images/superbowls/SuperBowl50.png" alt="superbowl-2015" class="superbowl-logos">
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="superbowl-img"> <img src="assets/images/superbowls/SuperBowl50.png" alt="superbowl-2015"
+                            class="img-thumbnail">
+                    </div>
+
                     <div class="row row-cols-2 px-1 sbwins">
                         <div class="col wins font-weight-bolder">Carolina Panthers</div>
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
@@ -243,7 +246,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-sm-6"><img src="assets/images/players-to-watch/von.jpeg" alt="von-miller"
+                <div class="col-12 col-md-6"><img src="assets/images/players-to-watch/von.jpeg" alt="von-miller"
                         class="img-thumbnail players-img" id="von">
                     <div class="players2watch">
                         <h3>Von Miller #58 OLB</h3>
@@ -263,7 +266,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6"><img src="assets/images/players-to-watch/jerry.jpg" alt="jerry-jeudy"
+                <div class="col-12 col-md-6"><img src="assets/images/players-to-watch/jerry.jpg" alt="jerry-jeudy"
                         class="img-thumbnail players-img" id="jerry">
                     <div class="players2watch">
                         <h3> Jerry Jeudy #10 WR</h3>
@@ -287,7 +290,7 @@
         </div>
     </section>
     <!--opponents section-->
-    <div class="container-fluid opponents-section-full" id="opponents">
+    <div class="container-fluid" id="opponents">
         <h2 class="text-center Season-Opponents">2021 Season Opponents</h2>
         <hr class="opponents-hr">
         <div class="row">
@@ -387,40 +390,40 @@
     </div>
 
     <!--sign up  form-->
-    <section class="sign-up-form text-center" id="signup">
+    <section class="text-center" id="signup">
         <form id="contact-form">
             <div class="form-logo">
                 <img src="assets/images/opponents/broncos.png" alt="denver-brocos-logo" class="form-logo">
             </div>
             <div>
                 <label for="name">Full Name</label>
-                <input type="text" id="name" class="form-control text-center" placeholder="--------" required></div>
+                <input type="text" id="name" class="form-control text-center" placeholder="--------"></div>
 
             <div class="form-group">
                 <label for="email">Email Address</label>
                 <input type="email" class="form-control text-center" id="email" aria-describedby="emailHelp"
-                    placeholder="--------" required>
+                    placeholder="--------">
             </div>
             <div class="form-group">
                 <label for="repeat-email">Repeat Email Address</label>
                 <input type="email" class="form-control text-center" id="repeat-email" aria-describedby="emailHelp"
-                    placeholder="--------" required>
+                    placeholder="--------">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
             </div>
             <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
                 <label class="form-check-label" for="exampleCheck1">Are You Happy To Receive Our Weekly
                     Broncos Country Updates</label>
             </div>
-            <button type="submit" class="btn sign-up-pop-up-btn " data-toggle="modal" data-target="#Modal">
+            <button type="submit" class="btn sign-up-pop-up-btn" data-toggle="modal" data-target="#modal">
                 Sign Up!!
             </button>
         </form>
 
         <!--sign up  form modal-->
 
-        <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content sign-up-modal">
                     <div class="modal-header">
@@ -428,7 +431,7 @@
                     </div>
                     <div class="modal-body">
                         Thank you.
-                        You've just signed up to our weekly Broncos counrty updates.
+                        You've just signed up to our weekly Broncos Country updates.
                         <img src="assets/images/opponents/broncos.png" alt="denver-brocos-logo" class="form-logo">
                     </div>
                     <div class="modal-footer">
@@ -443,8 +446,8 @@
             <div class="social-links col-12">
                 <a href="https://www.facebook.com/" target="_blank" aria-label="Follow us on Facebook" rel="noopener"><i
                         class="fab fa-facebook-square"></i></a>
-                <a href="https://www.tripadvisor.com/" target="_blank" aria-label="Visit us on Tripadvisor"
-                    rel="noopener"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/" target="_blank" aria-label="Visit us on Tripadvisor" rel="noopener"><i
+                        class="fab fa-twitter-square" aria-hidden="true"></i></a>
                 <a href="https://www.instagram.com/" target="_blank" aria-label="Follow us on Instagram"
                     rel="noopener"><i class="fab fa-instagram"></i></a>
             </div>
