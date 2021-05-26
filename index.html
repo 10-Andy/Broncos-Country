@@ -51,10 +51,10 @@
         <div id="hero-image">
         </div>
         <div id="facts-section">
-            <h1 class="text-center welcome">Welcome Broncos Country</h1>
+            <h1 class="text-center" id="welcome">Welcome Broncos Country</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 facts-logo" id="welcome"> <img src="assets/images/opponents/broncos.png"
+                    <div class="col-12 facts-logo"> <img src="assets/images/opponents/broncos.png"
                             alt="denver-brocos-logo" class="broncos-logo">
                     </div>
                     <p class="text-center welcome-p">Founded as an American Football League club on August 14, 1959,
@@ -90,7 +90,7 @@
                             <li>First 1,000-Yard Rusher: Floyd Little, 1,133 yards (1971).</li>
                         </ul>
                     </div>
-                    <div class="col-12 col-md-4 facts-2">
+                    <div class="col-12 col-md-4" id="facts-2">
                         <ul>
                             <li>Super Bowl Championships:
                                 XXXII, XXXIII, 50</li>
@@ -141,14 +141,14 @@
     <section id="superbowl" class="text-center">
         <div id="superbowl-heading">
             <h2>SuperBowl Wins</h2>
-            <hr class=" sbwins-hr">
+            <hr class="superbowl-wins-hr">
         </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-4">
                     <div class="superbowl-img"><img src="assets/images/superbowls/Super_BowlXXXII.png"
                             alt="superbowl-1997" class="img-thumbnail"></div>
-                    <div class="row row-cols-2 px-1 sbwins">
+                    <div class="row row-cols-2 px-1 superbowl-wins">
                         <div class="col wins font-weight-bolder">Green Bay Packers</div>
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
                         <div class="col wins">NFC</div>
@@ -158,7 +158,7 @@
                         <div class="col wins">24</div>
                         <div class="col wins">31</div>
                     </div>
-                    <p class="sbp">
+                    <p class="superbowl-p">
                         The Broncos defeated the Packers by the score of 31–24. The game was played on January 25,
                         1998,
                         at Qualcomm Stadium in San Diego, California, the second time that the Super Bowl was held
@@ -178,7 +178,7 @@
                     <div class="superbowl-img"><img src="assets/images/superbowls/SuperBowlXXXIII.png"
                             alt="superbowl-1998" class="img-thumbnail">
                     </div>
-                    <div class="row row-cols-2 px-1 sbwins">
+                    <div class="row row-cols-2 px-1 superbowl-wins">
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
                         <div class="col wins font-weight-bolder">Atlanta Falcons</div>
                         <div class="col wins">AFC</div>
@@ -188,7 +188,7 @@
                         <div class="col wins">34</div>
                         <div class="col wins">19</div>
                     </div>
-                    <p class="sbp">The Broncos defeated the Falcons by the score of 34–19, winning their second
+                    <p class="superbowl-p">The Broncos defeated the Falcons by the score of 34–19, winning their second
                         consecutive
                         Super
                         Bowl.
@@ -206,7 +206,7 @@
                             class="img-thumbnail">
                     </div>
 
-                    <div class="row row-cols-2 px-1 sbwins">
+                    <div class="row row-cols-2 px-1 superbowl-wins">
                         <div class="col wins font-weight-bolder">Carolina Panthers</div>
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
                         <div class="col wins">NFC</div>
@@ -216,7 +216,8 @@
                         <div class="col wins">10</div>
                         <div class="col wins">24</div>
                     </div>
-                    <p class="sbp">The Denver Broncos defeated the Carolina Panthers, 24–10. The game was played on
+                    <p class="superbowl-p">The Denver Broncos defeated the Carolina Panthers, 24–10. The game was played
+                        on
                         February 7,
                         2016, at Levi's Stadium in Santa Clara, California, in the San Francisco Bay Area. The NFL
                         Dropped
@@ -412,8 +413,8 @@
                     else.</small>
             </div>
             <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                <label class="form-check-label" for="exampleCheck1">Are You Happy To Receive Our Weekly
+                <input type="checkbox" class="form-check-input" id="Check1" required>
+                <label class="form-check-label" for="Check1">Are You Happy To Receive Our Weekly
                     Broncos Country Updates</label>
             </div>
             <button type="submit" class="btn sign-up-pop-up-btn" data-toggle="modal" data-target="#modal">
@@ -423,7 +424,8 @@
 
         <!--sign up  form modal-->
 
-        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content sign-up-modal">
                     <div class="modal-header">

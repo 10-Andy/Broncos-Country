@@ -2,7 +2,7 @@ $(document).on('click', function () {
     $('.collapse').collapse('hide');
 })
 
-$("#contact-form").submit(e => {
+$('#contact-form').submit(function (e) {
     e.preventDefault();
-    $('#Modal').modal('show')
+    $('#submitModal').modal('show');
 });
