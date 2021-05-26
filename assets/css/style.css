@@ -29,7 +29,7 @@ h4 {
     font-weight: 700;
 }
 
-.sbwins-hr {
+.superbowl-wins-hr {
     border: 1px solid #fb4f14;
     width: 35%;
 
@@ -102,11 +102,13 @@ h4 {
     margin: auto;
 }
 
-.welcome {
+#welcome {
     font-size: 6rem;
     font-weight: 700;
     color: #fb4f14;
     font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*--------------------------------- facts section */
@@ -130,7 +132,7 @@ h4 {
     color: #002244;
 }
 
-.facts-2 {
+#facts-2 {
     margin-top: 90px;
 }
 
@@ -152,7 +154,7 @@ h4 {
     border: 0.5px solid #888888;
 }
 
-.sbwins {
+.superbowl-wins {
     margin-bottom: 30px;
     font-weight: bold;
 }
@@ -168,7 +170,7 @@ h4 {
 }
 
 
-.sbp {
+.superbowl-p {
     margin-bottom: 70px;
 
 }
@@ -177,7 +179,6 @@ h4 {
     background-color: inherit;
     border: none;
     margin-bottom: 15px;
-    max-height: 300px;
 }
 
 
