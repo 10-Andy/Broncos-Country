@@ -5,7 +5,7 @@
 
 ## **Introduction**
 
-Welcome to my first milestone project as part of my full stack developer course with Code Institue.
+Welcome to my project as part of my full stack developer course with Code Institue.
 
 Broncos Country is a website for fans of the NFL team the Denver Broncos. On this site you can find 
 information about the teams history, players and  2021 season opponents. Primary goal of this site 
@@ -185,30 +185,30 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
   ### **Nav Bar**
 
 * #### **Plan** 
-    I wanted a navigation bar that is fixed to the top of the page , with 6 clickable links, that was clear and easy to use , one being an image of the Denver Broncos logo. When clicked the links with help you navagate through the page with ease. On mobile and some tablet devices I wanted the navbar to be collapsable using an american football icon.
+    I wanted a navigation bar that is fixed to the top of the page, with 6 clickable links, that was clear and easy to use, one being an image of the Denver Broncos logo. When clicked, the links with help you navagate through the page with ease. On mobile and some tablet devices I wanted the navbar to be collapsable using an american football icon.
     
         
 * #### **Implementation** 
-    I used bootstrap to implement my nav bar . this allowed for easy design and structure. I used Font Awsome for the icon ,used my own css to overide the bootstrap css to make the nav bar fit in with the overall design.
+    I used bootstrap to implement my nav bar. This allowed for easy design and structure. I used Font Awsome for the icon. I also used my own css to overide the bootstrap css to make the nav bar fit in with the overall design.
 
 * #### **Testing**
-    To test the nav bar i clicked on all the links to make sure the work as they should on both desktop and mobile views.Also chcking does the nav bar collapse and the football icon appear on smaller devices.
+    To test the nav bar I clicked on all the links to make sure they worked as they should on both desktop and mobile views. Also checking does the nav bar collapse and the football icon appear on smaller devices.
 
 
 * #### **Result**
     The links worked as they should on all devices, the nav bar collapsed and the football icon appeared.
-    The nav bar didnt close after i clicked a link on mobile/tablet.
+    The nav bar didn't close after I clicked a link on mobile/tablet.
 
 * #### **Result** 
-    Most tests passed except the issue of the nav bar not closing after a link had been clicked , i found a piece of JavaScript on [Stack overflow](https://stackoverflow.com/) to solve this issue.
+    Most tests passed except the issue of the nav bar not closing after a link had been clicked, I found a piece of JavaScript on [Stack overflow](https://stackoverflow.com/) to solve this issue.
 
 ### **2021 Opponents**
 
 * #### **Plan** 
-    I wanted images of the 2021 opponents logos within a cirlce in two sections, home and away, divided by a vertical line , when view on small device the home section would be above he away sectin with a horisontal line dividing them.
+    I wanted images of the 2021 opponents logos within a cirlce in two sections, home and away, divided by a vertical line. When viewed on small devices the home section would be above the away section with a horizontal line dividing them.
 
 * #### **Implementation** 
-    Ive used bootstraps grid to help structure the teams logos, while using media queries to changing the divding line from horisontal to vertical.I used css to style the images.
+    Ive used bootstraps grid to help structure the teams logos, while using media queries to change the divding line from horizontal to vertical. I used css to style the images.
 
 
 * #### **Testing**
@@ -223,33 +223,15 @@ As the Denver Broncos are a sports team, I've made my design choices based on th
     I wanted a modal to provide feeback on the Broncos Country weekly email sign up form when the user completed it correctly.
 
 * #### **Implementation** 
-    I've used bopotstrap for the modal and used css to overide bootstraps css styling. i added an image of the Denver Broncos logo and text to show feedback to the user.
+    I've used bootstrap for the modal and used css to overide bootstraps css styling. I added an image of the Denver Broncos logo and text to show feedback to the user.
 
 * #### **Testing**
-    The modal preformed as it should but I found you could click the sign up button with filling in the form and the modal would show as if you completed the from, i need help from my mentor who wrote a piece of JavaScript to fix the issue.
+    The modal preformed as it should but I found you could click the sign up button withput filling in the form and the modal would show as if you completed the from, I needed  help from my mentor who wrote a piece of JavaScript to fix the issue.
 
 * #### **Result**
     The modal worked as planned.
 
- ### SuperBowl Wins ###
-
-* I wanted the 3 images of the SuperBowl wins with the teams, scores and a short write up underneath the images. To do this I used bootstraps grid system.
-
-* To test I viewed the webpage page on different browsers and viewed it on different devices. 
-
-* I found that the image sizing that I used didnt look as well on mobile as it did on desktop, this was resolved by changing the sizing.
-
- ### Season Opponents ###
-
-* I want all 17 season opponents displayed home and away in 2 grids with a dividing vetical line and a dividing horiziontal in mobile with home above and away below.
-
-* To test I viewed the webpage page on different browser and viewed it on different devices. 
-
-* I found that my image sizing didnt translate to mobile divices as well as I wanted and they had to be changed.
-
-
-
-<a></a>
+<a></a> 
 ## **Deployment**
 
 This project was deployed via GitHub by executing the following steps.
@@ -272,3 +254,4 @@ I've used the following websites for my project
 * [ESPN](https://www.espn.com/)
 * [w3schools](https://www.w3schools.com/)
 * [CSS Tricks](https://css-tricks.com/)
+* [Stack overflow](https://stackoverflow.com/)
