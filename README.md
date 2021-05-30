@@ -240,9 +240,7 @@ After writing the code, committing and pushing it to GitHub:
 1. Then go to "**Pages** tab in the left hand side sidebar.
 1.Then under **Source** click the **None** dropdown and select the "Main" branch
 Click *Save**
-1. The page will update and at the top it will say: Your site is ready to be published at 
-
-               ```https://YOURUSERNAME.github.io/REPONAME/```
+1. The page will update and at the top it will say: Your site is ready to be published at  ```https://YOURUSERNAME.github.io/REPONAME/```
 
 ## **Credits**
 
