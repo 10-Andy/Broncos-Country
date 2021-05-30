@@ -5,8 +5,6 @@
 
 ## **Introduction**
 
-Welcome to my project as part of my full stack developer course with Code Institue.
-
 Broncos Country is a website for fans of the NFL team the Denver Broncos. On this site you can find 
 information about the teams history, players and  2021 season opponents. Primary goal of this site 
 is for the user to sign up to my weekly Broncos Country Newsletter.
@@ -238,11 +236,13 @@ This project was deployed via GitHub by executing the following steps.
 After writing the code, committing and pushing it to GitHub:
 
 1. Log in to **GitHub** and locate the **Repository**
-1. Go to your github repository and click on "Settings" tab
-1. Then go to "Pages" tab in the left hand side sidebar.
-* 1.Then under "Source" click the "None" dropdown and select the "Main" branch
-Click "Save"
-1. The page will update and at the top it will say: "Your site is ready to be published at https://10-andy.github.io/Broncos-Country/
+1. Go to your github repository and click on **Settings** tab
+1. Then go to "**Pages** tab in the left hand side sidebar.
+1.Then under **Source** click the **None** dropdown and select the "Main" branch
+Click *Save**
+1. The page will update and at the top it will say: Your site is ready to be published at 
+
+               ```https://YOURUSERNAME.github.io/REPONAME/```
 
 ## **Credits**
 
@@ -255,3 +255,9 @@ I've used the following websites for my project
 * [w3schools](https://www.w3schools.com/)
 * [CSS Tricks](https://css-tricks.com/)
 * [Stack overflow](https://stackoverflow.com/)
+* [Naturazy](https://anouksmet.github.io/Naturazy/#tree-houses)
+
+
+## **Acknowledgements**
+
+I would like to thank my mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) for helping me throughout this project, he gave me great tips and advice that really got me through. His feedback was constructive and reassuring.The slack community was great for advice, tips and the code review. 

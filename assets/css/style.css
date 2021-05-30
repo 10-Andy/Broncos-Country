@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+:root {
+    --header-font: 'Ubuntu', sans-serif;
+    --body-font: 'Oxygen', sans-serif;
+    --orange: #fb4f14;
+    --navy: #002244;
+    --grey: #888888;
+    --white: #fff;
+}
+
 html {
 
     font-size: 62.5%;
@@ -7,22 +16,22 @@ html {
 }
 
 body {
-    font-family: 'Oxygen', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    color: #002244;
+    font-family: var(--body-font);
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: var(--navy);
 }
 
-/*--------------------------------- general */
+/* general */
 h2 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--header-font);
     font-size: 4.5rem;
 }
 
 h3 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: var(--header-font);
     font-size: 4rem;
-    text-decoration: underline #002244;
+    text-decoration: underline var(--navy);
 }
 
 h4 {
@@ -30,26 +39,26 @@ h4 {
 }
 
 .superbowl-wins-hr {
-    border: 1px solid #fb4f14;
+    border: 1px solid var(--orange);
     width: 35%;
 
 }
 
 .players-hr {
-    border: 1px solid #002244;
+    border: 1px solid var(--navy);
     width: 35%;
 }
 
 .hr-opponents {
-    border: 3px solid #fb4f14;
+    border: 3px solid var(--orange);
     width: 80%;
-    margin: 50px auto 50px auto;
+    margin: 5rem auto;
 }
 
 .opponents-hr {
-    border: 1px solid #fb4f14;
+    border: 1px solid var(--orange);
     width: 35%;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 
 }
 
@@ -58,38 +67,38 @@ h4 {
     margin-right: 0;
 }
 
-/*--------------------------------- navbar */
+/* navbar */
 
 #broncos-badge {
-    width: 50px;
-    height: 50px;
+    width: 5rem;
+    height: 5rem;
 }
 
 .nbar {
-    background-color: #ffffff;
+    background-color: var(--white);
 
 }
 
 .nbar .nav-item .nav-link {
-    color: #fb4f14;
+    color: var(--orange);
     text-transform: initial;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
 .nbar .nav-item .nav-link:hover {
-    color: #002244;
+    color: var(--navy);
 }
 
 #broncos-badge:hover {
-    background-color: #fb4f14;
+    background-color: var(--orange);
 }
 
-/*--------------------------------- hero image */
+/* hero image */
 
 #hero-image {
     background: url('../images/hero-image/stadium3.jpg') no-repeat fixed center center;
-    height: 85vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -105,105 +114,106 @@ h4 {
 #welcome {
     font-size: 6rem;
     font-weight: 700;
-    color: #fb4f14;
-    font-family: 'Ubuntu', sans-serif;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    color: var(--orange);
+    font-family: var(--header-font);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
-/*--------------------------------- facts section */
+/* facts section */
 
 #facts-section {
-    background-color: #ffffff;
+    background-color: var(--white);
 
 }
 
 .welcome-p {
-    margin-bottom: 50px;
-    margin-top: 50px;
-
-    color: #002244;
-    font-weight: 700;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    color: var(--navy);
     font-size: 3rem;
+    font-weight: 700;
 }
 
 .facts {
-    margin-bottom: 50px;
-    color: #002244;
+    margin-bottom: 5rem;
+    color: var(--navy);
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 #facts-2 {
-    margin-top: 90px;
+    margin-top: 5rem;
 }
 
 .facts-logo {
     text-align: center;
-    border-radius: 5px 20px 5px;
-    border: 3px solid #002244;
+    border-radius: 0.5rem 2rem 0.5rem;
+    border: 3px solid var(--navy);
 
 }
 
 .facts-logo img {
-    width: 280px;
+    width: 30rem;
 }
 
-/*--------------------------------- superbowls wins */
+/* superbowls wins */
 
 
 .wins {
-    border: 0.5px solid #888888;
+    border: 0.5px solid var(--grey);
 }
 
 .superbowl-wins {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
     font-weight: bold;
 }
 
 #superbowl-heading {
-    padding-top: 50px;
-    padding-bottom: 35px;
+    padding-top: 5rem;
+    padding-bottom: 3.5rem;
 }
 
 #superbowl {
-    background-color: #002244;
-    color: #fb4f14;
+    background-color: var(--navy);
+    color: var(--orange);
 }
 
 
 .superbowl-p {
-    margin-bottom: 70px;
+    margin-bottom: 7rem;
 
 }
 
 .superbowl-img .img-thumbnail {
     background-color: inherit;
     border: none;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 
 
-/*--------------------------------- players to watch */
+/* players to watch */
 
 .players-section-full {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 
 }
 
 #players-heading {
-    padding-bottom: 35px;
+    padding-bottom: 3.5rem;
 }
 
 #players {
-    background-color: #fb4f14;
+    background-color: var(--orange);
     margin: auto;
-    color: #002244;
+    color: var(--navy);
 }
 
 
 .players-img {
     border-radius: 30%;
-    border-color: #002244;
+    border-color: var(--navy);
 }
 
 .players2watch {
@@ -214,7 +224,7 @@ h4 {
     margin-bottom: 2vh;
 }
 
-/*--------------------------------- 2021 opponents */
+/* 2021 opponents */
 
 .opponents-logo {
     border-radius: 50%;
@@ -228,15 +238,15 @@ h4 {
 }
 
 #opponents {
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
 
 }
 
 .vr-opponents1 {
     width: 3px;
-    height: 250px;
-    background: #fb4f14;
+    height: 25rem;
+    background: var(--orange);
     margin: auto;
 }
 
@@ -246,25 +256,25 @@ h4 {
 }
 
 .Season-Opponents {
-    color: #fb4f14;
+    color: var(--orange);
 }
 
-/*--------------------------------- sign up form */
+/* sign up form */
 #signup {
     padding-top: 50px;
     padding-bottom: 50px;
     max-width: 85%;
     font-weight: 700;
     margin: 0 auto;
-    border: solid 4px #fb4f14;
+    border: solid 4px var(--orange);
 }
 
 .form-control {
     width: 50%;
     margin: auto;
     font-weight: 700;
-    font-size: 20px;
-    color: #002244;
+    font-size: 2rem;
+    color: var(--navy);
 }
 
 .form-logo {
@@ -274,42 +284,42 @@ h4 {
 }
 
 .sign-up-modal {
-    color: #fb4f14;
+    color: var(--orange);
 }
 
 .sign-up-pop-up-btn {
-    background-color: #fb4f14;
-    color: #002244;
+    background-color: var(--orange);
+    color: var(--navy);
     ;
 
 }
 
 .modal-pop-up-btn {
-    background-color: #fb4f14;
-    color: #002244;
+    background-color: var(--orange);
+    color: var(--navy);
 }
 
 #ModalLabel {
     margin: auto;
 }
 
-/*--------------------------------- footer */
+/* footer */
 
 .social-links {
     text-align: center;
 }
 
 .social-links a {
-    color: #002244;
+    color: var(--navy);
     font-size: 3.5rem;
     padding: 2rem;
 }
 
 .social-links a i:hover {
-    color: #fb4f14;
+    color: var(--orange);
 }
 
-/*--------------------------------- media  */
+/*media  */
 
 @media only screen and (max-width: 600px) {
     .vr-opponents {
