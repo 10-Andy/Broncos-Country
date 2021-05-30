@@ -18,28 +18,29 @@
     <!--Navbar-->
 
     <nav class="navbar sticky-top navbar-expand-lg nbar">
-        <a class="navbar-brand" href="#welcome"><img alt="Denver Broncos" id="broncos-badge"
-                src="assets/images/opponents/broncos.png"></a>
+        <a class="navbar-brand" href="#welcome">
+            <img alt="Denver Broncos" id="broncos-badge" src="assets/images/opponents/broncos.png">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span><i class="fas fa-football-ball"></i></span>
+            <i class="fas fa-football-ball"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#welcome">Welcome<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#welcome" aria-label="welcome">Welcome</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#superbowl">Superbowl Wins</a>
+                    <a class="nav-link" href="#superbowl" aria-label="superbowl wins">Superbowl Wins</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#players">Players To watch</a>
+                    <a class="nav-link" href="#players" aria-label="players To watch">Players To watch</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#opponents">2021 Opponents</a>
+                    <a class="nav-link" href="#opponents" aria-label="2021 opponents">2021 Opponents</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#signup">Sign up</a>
+                    <a class="nav-link" href="#signup" aria-label="sign up">Sign up</a>
                 </li>
             </ul>
         </div>
@@ -52,10 +53,10 @@
         </div>
         <div id="facts-section">
             <h1 class="text-center" id="welcome">Welcome Broncos Country</h1>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 facts-logo"> <img src="assets/images/opponents/broncos.png"
-                            alt="denver-brocos-logo" class="broncos-logo">
+                    <div class="col-12 facts-logo">
+                        <img src="assets/images/opponents/broncos.png" alt="denver-brocos-logo" class="broncos-logo">
                     </div>
                     <p class="text-center welcome-p">Founded as an American Football League club on August 14, 1959,
                         the Broncos participated in the AFL’s first regular season game,
@@ -146,8 +147,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-lg-4">
-                    <div class="superbowl-img"><img src="assets/images/superbowls/Super_BowlXXXII.png"
-                            alt="superbowl-1997" class="img-thumbnail"></div>
+                    <div class="superbowl-img">
+                        <img src="assets/images/superbowls/Super_BowlXXXII.png" alt="superbowl-1997"
+                            class="img-thumbnail">
+                    </div>
+
                     <div class="row row-cols-2 px-1 superbowl-wins">
                         <div class="col wins font-weight-bolder">Green Bay Packers</div>
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
@@ -158,6 +162,7 @@
                         <div class="col wins">24</div>
                         <div class="col wins">31</div>
                     </div>
+
                     <p class="superbowl-p">
                         The Broncos defeated the Packers by the score of 31–24. The game was played on January 25,
                         1998,
@@ -174,9 +179,11 @@
                         touchdowns.
                     </p>
                 </div>
+
                 <div class="col-12 col-lg-4">
-                    <div class="superbowl-img"><img src="assets/images/superbowls/SuperBowlXXXIII.png"
-                            alt="superbowl-1998" class="img-thumbnail">
+                    <div class="superbowl-img">
+                        <img src="assets/images/superbowls/SuperBowlXXXIII.png" alt="superbowl-1998"
+                            class="img-thumbnail">
                     </div>
                     <div class="row row-cols-2 px-1 superbowl-wins">
                         <div class="col wins font-weight-bolder">Denver Broncos</div>
@@ -202,8 +209,8 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-4 text-center">
-                    <div class="superbowl-img"> <img src="assets/images/superbowls/SuperBowl50.png" alt="superbowl-2015"
-                            class="img-thumbnail">
+                    <div class="superbowl-img">
+                        <img src="assets/images/superbowls/SuperBowl50.png" alt="superbowl-2015" class="img-thumbnail">
                     </div>
 
                     <div class="row row-cols-2 px-1 superbowl-wins">
@@ -247,7 +254,8 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-6"><img src="assets/images/players-to-watch/von.jpeg" alt="von-miller"
+                <div class="col-12 col-md-6">
+                    <img src="assets/images/players-to-watch/von.jpeg" alt="von-miller"
                         class="img-thumbnail players-img" id="von">
                     <div class="players2watch">
                         <h3>Von Miller #58 OLB</h3>
@@ -267,7 +275,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6"><img src="assets/images/players-to-watch/jerry.jpg" alt="jerry-jeudy"
+                <div class="col-12 col-md-6">
+                    <img src="assets/images/players-to-watch/jerry.jpg" alt="jerry-jeudy"
                         class="img-thumbnail players-img" id="jerry">
                     <div class="players2watch">
                         <h3> Jerry Jeudy #10 WR</h3>
@@ -297,94 +306,105 @@
         <div class="row">
             <div class="col-12 col-md-5 text-center">
                 <h3>Home</h3>
+
                 <div class="row">
+
                     <div class="col-4 opponents-logo">
                         <img src="assets/images/opponents/la.png" alt="Los-Angeles-Chargers"
                             class="los-angeles-chargers opponents-logo">
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/kc.png" alt="Kansas-City-Chiefs"
                             class="kansas-city-chiefs opponents-logo">
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/raiders.png" alt="Las Vegas-Raiders"
                             class="las-vegas-raiders opponents-logo">
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/cowboys.jpg" alt="Dallas-Cowboys"
                             class="dallas-cowboys opponents-logo">
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/giants.jpg" alt="New-York-Giants"
                             class="new-york-giants opponents-logo">
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/browns.png" alt="Cleveland-Browns"
                             class="cleveland-browns opponents-logo">
                     </div>
+
                     <div class="col-6">
                         <img src="assets/images/opponents/steelers.png" alt="Pittsburgh-Steelers"
                             class="pittsburgh-steelers opponents-logo1">
-
                     </div>
+
                     <div class="col-6">
                         <img src="assets/images/opponents/jags.png" alt="Jacksonville-Jaguars opponents-logo"
                             class="jacksonville-jaguars opponents-logo1">
                     </div>
+
                 </div>
             </div>
+
             <div class="col-12 col-md-1 vr-line">
                 <div class="vr-opponents vr-opponents1"></div>
             </div>
             <div class="col-12 col-md-5 text-center">
                 <h3>Away</h3>
-                <div class="row">
-                    <div class="col-4 opponents-logo">
 
+                <div class="row">
+
+                    <div class="col-4 opponents-logo">
                         <img src="assets/images/opponents/la.png" alt="Los-Angeles-Chargers"
                             class="los-angeles-chargers opponents-logo">
-
                     </div>
-                    <div class="col-4">
 
+                    <div class="col-4">
                         <img src="assets/images/opponents/kc.png" alt="Kansas-City-Chiefs"
                             class="kansas-city-chiefs opponents-logo">
-
                     </div>
-                    <div class="col-4">
 
+                    <div class="col-4">
                         <img src="assets/images/opponents/raiders.png" alt="Las Vegas-Raiders"
                             class="las-vegas-raiders opponents-logo">
-
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/wft.png" alt="Washington-Football-Team"
                             class="washington-football-team opponents-logo">
-
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/eagles.png" alt="Philadelphia-Eagles"
                             class="philadelphia-eagles opponents-logo">
-
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/jets.png" alt="New-York-Jets"
                             class="new-york-jets opponents-logo">
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/bengals.jpg" alt="Cincinnati-Bengals"
                             class="cincinnati-bengals opponents-logo">
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/ravens.png" alt="Baltimore-Ravens"
                             class="baltimore-ravens opponents-logo">
-
                     </div>
+
                     <div class="col-4">
                         <img src="assets/images/opponents/lions.png" alt="Detroit-Lions"
                             class="detroit-lion opponents-logo">
-
                     </div>
+
                 </div>
             </div>
         </div>
